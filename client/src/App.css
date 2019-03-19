@@ -1,0 +1,15 @@
+.CheckoutSummary {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+.ContactInfo {
+	margin: 20px auto;
+	width: 80%;
+	text-align: center;
+}
+
+.Input {
+	margin: 20px;	
+}
