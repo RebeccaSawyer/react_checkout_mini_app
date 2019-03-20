@@ -26,7 +26,7 @@ constructor() {
 
 	checkoutContinueHandler () {
 		this.handleSubmit();
-		this.props.history.replace('/checkout/shipment-info');
+		this.props.history.push('/checkout/shipment-info');
 
 	}
 
@@ -83,7 +83,7 @@ const Checkoutsummary = (props) => {
 
 	return (
 	<div className={classes.Checkout}>
-	<h1>Enjoy your fish!</h1>
+	<h1>Enjoy your new purchase!</h1>
 	<h4>Please enter your contact info</h4>
 
 	<div className={classes.ContactInfo}>
